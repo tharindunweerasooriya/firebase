@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cHome"
+    android:id="@+id/drawer">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/home"
+       android:fadeScrollbars="true"
+       android:hapticFeedbackEnabled="true">
+
+      <TextView
+          android:id="@+id/AddPro"
+          android:layout_width="281dp"
+          android:layout_height="46dp"
+          android:layout_marginTop="76dp"
+          android:text="@string/companyName"
+          android:textAlignment="center"
+          android:textColor="#0B0000"
+          android:textSize="30sp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <Button
+          android:id="@+id/imageView3"
+          android:layout_width="326dp"
+          android:layout_height="0dp"
+          android:layout_marginTop="40dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.494"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/AddPro" />
+
+      <Button
+          android:id="@+id/imageView6"
+          android:layout_width="326dp"
+          android:layout_height="0dp"
+          android:layout_marginTop="24dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.494"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+      <Button
+          android:id="@+id/imageView7"
+          android:layout_width="326dp"
+          android:layout_height="0dp"
+          android:layout_marginTop="24dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.494"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+
+      <Button
+          android:id="@+id/button101"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_marginTop="44dp"
+          android:text="Button"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.5"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+      <!--      app:layout_constraintTop_toBottomOf="@+id/imageView7" -->/>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+   <com.google.android.material.navigation.NavigationView
+       app:headerLayout="@layout/header"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:background="@color/white"
+       app:itemTextColor="@color/darkgray"
+       app:itemIconTint="@color/darkgray"
+       app:menu="@menu/drawermenu"
+       android:layout_gravity="start"/>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
