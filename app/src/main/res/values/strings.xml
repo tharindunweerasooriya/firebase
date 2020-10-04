@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pharmacy</string>
+    <string name="takephoto">  Capture Image </string>
+    <string name="enter_location">Enter Location</string>
+    <string name="submit">send order</string>
+    <string name="hintPhone">Phone number</string>
+</resources>

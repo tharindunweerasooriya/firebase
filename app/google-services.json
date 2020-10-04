@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "215434792499",
+    "firebase_url": "https://upteast.firebaseio.com",
+    "project_id": "upteast",
+    "storage_bucket": "upteast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215434792499:android:a79d9082b5fffd176a1d46",
+        "android_client_info": {
+          "package_name": "com.example.imageupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215434792499-h1511srifql400gf1c1d2ahdmkgl1cn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpKlwi6V2SBsZNtonmhTKg0RNQdnDn2gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215434792499-h1511srifql400gf1c1d2ahdmkgl1cn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
