@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.teamevox.freshfred.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_shop_home" />
+
+    <fragment
+        android:id="@+id/nav_add_food"
+        android:name="com.teamevox.freshfred.ui.addfood.AddFoodFragment"
+        android:label="@string/menu_add_food" />
+
+    <fragment
+        android:id="@+id/nav_request_supply"
+        android:name="com.teamevox.freshfred.ui.supply.RequestSupplyFragment"
+        android:label="@string/menu_request_supply" />
+
+    <activity
+        android:id="@+id/riderLogin"
+        android:name="com.teamevox.freshfred.RiderLogin"
+        android:label="activity_rider_login"
+        tools:layout="@layout/activity_rider_login" />
+    <activity
+        android:id="@+id/riderPortal"
+        android:name="com.teamevox.freshfred.RiderPortal"
+        android:label="activity_rider_portal"
+        tools:layout="@layout/activity_rider_portal" />
+    <activity
+        android:id="@+id/supplierLogin"
+        android:name="com.teamevox.freshfred.SupplierLogin"
+        android:label="activity_supplier_login"
+        tools:layout="@layout/activity_supplier_login" />
+    <activity
+        android:id="@+id/ownerLogin"
+        android:name="com.teamevox.freshfred.OwnerLogin"
+        android:label="activity_owner_login"
+        tools:layout="@layout/activity_owner_login" />
+    <activity
+        android:id="@+id/cart"
+        android:name="com.teamevox.freshfred.Cart"
+        android:label="activity_cart"
+        tools:layout="@layout/activity_cart" />
+    <activity
+        android:id="@+id/loginRegister2"
+        android:name="com.teamevox.freshfred.LoginRegister"
+        android:label="activity_login_register"
+        tools:layout="@layout/activity_login_register" />
+
+</navigation>

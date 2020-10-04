@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".FoodHome">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_01"
+        android:layout_width="match_parent"
+        android:layout_height="644dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="35dp"
+        android:clickable="true"
+        android:focusable="auto"
+        android:foreground="@drawable/nav1_cart"
+        app:backgroundTint="@color/colorPrimaryDark" />
+</RelativeLayout>

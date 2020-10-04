@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">HomePharmacy2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Nav header -->
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">07XXXXXXXX</string>
+
+    <!-- Nav header menu items -->
+    <string name="menu_home">Shop</string>
+    <string name="menu_add_food">Add Foods</string>
+    <string name="menu_request_supply">Request Supply</string>
+    <string name="menu_add_rider">Add New Rider</string>
+    <string name="menu_rider_profile">Rider Profile</string>
+    <string name="menu_cart">My Cart</string>
+    <string name="menu_supplier">I am a supplier</string>
+    <string name="menu_delivery">I am a rider</string>
+    <string name="menu_supplier_profile">Add New Rider</string>
+
+    <string name="logged_mobile_number">07XXXXXXXX</string>  <!-- This is for logged users -->
+    <string name="menu_login_register">Login/Register</string> <!-- This is for non logged users -->
+
+    <!-- IT19208718 | S.M.H.M.Suraweera -->
+    <string name="add_new_rider">Add new rider</string>
+    <string name="rider_name">First name</string>
+    <string name="rider_mobile_number">Mobile number</string>
+    <string name="rider_bike_number">Bike number</string>
+    <string name="rider_commission">Commission</string>
+    <string name="rider_default_password">Password\n(Fixed)</string>
+    <string name="rider_btn">Add now</string>
+    <string name="rider_photo">Choose Photo</string>
+    <string name="rider_nic">NIC Number</string>
+    <string name="rider_nic_up">NIC Number\n(Fixed)</string>
+    <string name="rider_commissio_up">Commission\n(Fixed)</string>
+
+    <!-- IT19208718 | S.M.H.M.Suraweera | String arrays for recycler view-->
+    <string-array name="ordered_food_names">
+        <item>Luger Burger</item>
+        <item>Whiskey King Burger</item>
+    </string-array>
+
+    <string-array name="ordered_food_qty">
+        <item>Quantity : 02</item>
+        <item>Quantity : 04</item>
+    </string-array>
+
+    <string-array name="ordered_food_price">
+        <item>Price : 1400LKR</item>
+        <item>Price : 3200LKR</item>
+    </string-array>
+
+    <string-array name="ordered_food_mobile">
+        <item>Mobile : 0774809190</item>
+        <item>Mobile : 0776409190</item>
+    </string-array>
+
+    <string-array name="ordered_food_address">
+        <item>No02, DK Street, Colombo 01</item>
+        <item>No02, DK Street, Colombo 02</item>
+    </string-array>
+
+    <string name="rider_profile">Welcome Rider</string>
+    <string name="rider_profile_order_for_distribution">Orders for distribution</string>
+    <string name="rider_profile_daily_sales_report">Daily sales report</string>
+    <string name="rider_profile_distributed_orders">Distributed orders</string>
+    <string name="rider_profile_manage_account">My account</string>
+    <string name="rider_profile_logout">Logout</string>
+    <string name="rider_profile_welcome">Update detials</string>
+
+    <string name="ordered_food_name">Burger Hagover</string>
+    <string name="ordered_food_quantity">Quantity : 02</string>
+    <string name="ordered_food_price">Price : 1790LKR</string>
+    <string name="ordered_food_delivery_mobile">Mobile : 0774809190</string>
+    <string name="ordered_food_delivery_address">Address : No 2, DK Street, Colombo 02</string>
+    <string name="ordered_food_mark_as_shipped_btn_txt">Mark as shipped</string>
+    <string name="ordered_food_mark_as_cancel_btn_txt">Mark as cancel</string>
+    <string name="orders_for_distribution_welcome">Orders for distribution</string>
+
+    <string name="distributed_orders_welcome">Distributed orders</string>
+    <string name="distributed_orders_food_name">Burger Hagover</string>
+    <string name="distributed_orders_food_quantity">Quantity : 02</string>
+    <string name="distributed_orders_food_price">Price : 1790LKR</string>
+    <string name="distributed_orders_mobile">Mobile : 0774809190</string>
+    <string name="distributed_orders_address">Address : No 2, DK Street, Colombo 02</string>
+
+    <string name="sales_report_welcome">Daily sales reprt</string>
+    <string name="sales_report_date">Date : 10/09/2020</string>
+    <string name="sales_report_total_delivered_qty">Total delivered : 10</string>
+    <string name="sales_report_total_amount">Total amount : 6790 LKR</string>
+    <string name="sales_report_commission">Commission : 1018.50 LKR</string>
+    <string name="sales_report_show_yesterday">Show yesterday</string>
+
+    <!-- login IT19208718 -->
+    <string name="login_welcome">Login to FreshFred</string>
+    <string name="login_nic">Enter your NIC number</string>
+    <string name="login_pwd">Enter the password</string>
+    <string name="login_btn">Login Now</string>
+
+
+    <string name="Item_name">ITEM NAME</string>
+    <string name="order_quantity">QUANTITY</string>
+    <string name="order_address">ADDRESS</string>
+    <string name="order_mobile">MOBILE NUMBER</string>
+    <string name="send_to_suppliers">SEND TO SUPPLIER</string>
+    <string name="item_name">Order Item</string>
+    <string name="add_new_supplier">Add new supplier</string>
+    <string name="supplier_name">SUPPLIER NAME</string>
+    <string name="supplier_mobile_number">MOBILE NUMBER</string>
+    <string name="supply_item">SUPPLY ITEM</string>
+    <string name="supplier_default_password">PASSWORD</string>
+    <string name="supplier_btn">ADD NOW</string>
+    <string name="supplier_profile">Welcome supplier</string>
+    <string name="supplier_profile_manage_account">MY ACCOUNT</string>
+    <string name="received_request_item">RECeIVED REQUEST ITEMS</string>
+    <string name="daily_received_report">DAILY RECEIVED REPORT</string>
+    <string name="supplier_profile_logout">LOG OUT</string>
+    <string name="supplier_profile_welcome">Update details</string>
+    <string name="Supplier_name">vimal perera</string>
+    <string name="Supplier_Name">supplier name</string>
+    <string name="supplier_photo">supplier photo</string>
+    <string name="todo">TODO</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="update">Update</string>
+    <string name="supplier_login">Supplier Login</string>
+    <string name="owner_login">Owner Login</string>
+    <string name="owner">Owner</string>
+    <string name="Edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="save">Save</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditOrder">
+
+    <ImageView
+        android:id="@+id/edit_food_image_details"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/edit_food_name_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_food_image_details"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Food Name"
+        android:textColor="@android:color/black"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/edit_food_description_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_food_name_details"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Food Description"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/edit_food_price_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_food_description_details"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Food Price"
+        android:textColor="@android:color/black"
+        android:textSize="28dp" />
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/edit_number_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:gravity="center"
+        app:finalNumber="10"
+        app:initialNumber="1"
+        app:textSize="16dp"
+        android:layout_below="@id/edit_food_price_details"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/edit_fd_add_to_cart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+
+
+
+</RelativeLayout>

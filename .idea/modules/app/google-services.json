@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "104229101771",
+    "firebase_url": "https://homepharmacy2-80be2.firebaseio.com",
+    "project_id": "homepharmacy2-80be2",
+    "storage_bucket": "homepharmacy2-80be2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104229101771:android:6c5482183425c03b467b4e",
+        "android_client_info": {
+          "package_name": "com.example.homepharmacy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104229101771-vfcobnn3qcern92fm2ai1d0m6scna87l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homepharmacy2",
+            "certificate_hash": "281392da96e6bb1699a5d849fe905fba9d5760be"
+          }
+        },
+        {
+          "client_id": "104229101771-hsv4j63p3fqkeus86h9jcl5vkg57533j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtthTfkpCMmfLU38ToMBH2rNt9vaqS3tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104229101771-hsv4j63p3fqkeus86h9jcl5vkg57533j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
